@@ -1,0 +1,100 @@
+body {
+	 background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	 width: 100%;
+	 height: 100%;
+	 color: #172a3a;
+	 font-weight: 400;
+	 line-height: 1.2;
+	 font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 75%;
+}
+
+.centered {
+	margin: 0 auto;
+}
+
+.centered-text {
+	text-align: center;
+}
+
+.box {
+	background: #daffef;
+	padding: 0 10px;
+	margin-bottom: 40px;
+	width: 80%;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 11px 22px 0px rgba(132,153,177,1);
+	-moz-box-shadow: 0px 11px 22px 0px rgba(132,153,177,1);
+	box-shadow: 0px 11px 22px 0px rgba(132,153,177,1);
+}
+
+.subtitle {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	padding-top: 15px;
+}
+
+.subtitle h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	margin-top: 40px;
+}
+
+.title h1 {
+	font-family: 'Montserrat', sans-serif;;
+	font-weight: 400;
+	font-size: 50px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #daffef;
+}
+
+.recipe {
+	display: flex;
+	justify-content: center;
+}
+
+.recipe img {
+	margin-bottom: 20px;
+}
+
+.btn {
+  border: 2px solid #8499b1;
+  background-color: #daffef;
+  color: #8499b1;
+  padding: 14px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: all 0.3s linear;
+  font-weight: 600;
+}
+
+.btn:hover {
+	background-color: #8499b1;
+	color: #fdfdfd;
+}
+
+.download {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.download .btn {
+	margin-bottom: 30px;
+}
+
+code {
+	font-size: 16px;
+}
+
+.text {
+	width: 90%;
+	margin: 0 auto;
+}
