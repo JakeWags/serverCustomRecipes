@@ -98,3 +98,9 @@ code {
 	width: 90%;
 	margin: 0 auto;
 }
+
+@media screen and (max-width: 1200px) {
+	.box {
+		width: 100%;
+	}
+}
